@@ -1,5 +1,4 @@
-user_money = input("Наберите любое число?  ")
-user_price = input("Сколько стоит одна шоколадка?  ")
+user_money = input("Наберите трехзначное число ")
 
 try:
     money = int(user_money)
