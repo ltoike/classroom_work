@@ -1,0 +1,38 @@
+.imdying{
+    border: 2px solid purple;
+    height: 100px;
+    width: 100px;
+    font-size: 26px;
+    font-style: italic;
+    color: green ;
+    text-align: center;
+}
+.spn{
+    font-size: 26px;
+    font-style: italic;
+    color: pink;
+}
+.pickachy{
+    border: 2px solid green;
+    height: 100px;
+    width: 200px;
+    font-size: 26px;
+    font-style: italic;
+    color: purple  ;
+}
+#huh{
+
+}
+
+.ok{
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    color: green;
+}
+
+.spn2{
+    font-size: 60px;
+    color: black;
+}

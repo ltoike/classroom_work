@@ -1,0 +1,26 @@
+.class123{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px; 
+    font-size: 26px;
+    text-align: center;
+    color:brown;  
+    
+}
+.class50{
+    border: 2px solid yellow;
+    height: 70px;
+    width: 300px; 
+    font-size: 30px;
+    text-align: center;
+    color:red;  
+    
+}
+.span{
+    color: red;
+    font-size: 40px;
+}
+.spanP{
+    color: black;
+    font-size: 40px;
+}
