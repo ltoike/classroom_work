@@ -1,0 +1,34 @@
+.fist{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    font-size: 45px;
+    color: green; 
+}
+
+.black{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 80px;
+    color: blue; 
+}
+
+.line{
+    width: 400px;
+    border: 5px solid black;
+}
+
+.fav{
+    border: 2px solid pink;
+    height: 100px;
+    width: 200px;
+    font-size: 26px;
+    font-style: italic;
+    color: pink;
+}
+
+.line2{
+    width: 400px;
+    border: 5px solid yellowgreen;
+}
