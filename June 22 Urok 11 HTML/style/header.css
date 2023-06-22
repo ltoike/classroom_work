@@ -1,0 +1,31 @@
+.beginning{
+    margin: 0px;
+    border: 0px;
+}
+
+.pre{
+    outline: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+
+.items{
+    width: 60%;
+    height: 80px;
+    float: right;
+    margin-top: 20px;
+    outline: 1px solid black;
+    
+}
+
+.header{
+    outline: 1px solid black;
+    height: 30px; 
+    width: 70px;
+    font-size: medium;
+    font-family: 'Times New Roman';
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+}

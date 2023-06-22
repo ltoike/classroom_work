@@ -1,0 +1,47 @@
+.wrapper{
+    font-family: 'Times New Roman';
+    min-height: auto;
+    min-width: 8800;
+    outline: 1px solid black;
+}
+.leftside{
+    min-height: 600px;
+    width: 50%;
+}
+.main-wrapper{
+    font-family: 'Times New Roman';
+    height: 160px;
+    width: 400px;
+    text-align: left;
+    margin: auto;
+    outline: 1px solid black;
+}
+.block1{
+    outline: 1px solid black;
+    height: 30px; 
+    width: 120px;
+    font-size: small;
+    font-family:'Courier New';
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-right: 40px;
+
+}
+.block2{
+    outline: 1px solid black;
+    height: 30px; 
+    width: 120px;
+    font-size: small;
+    font-family:'Courier New';
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.image{
+    background-image: url("Snap.PNG")
+}
