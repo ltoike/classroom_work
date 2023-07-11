@@ -1,0 +1,39 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.block{
+    height: 100px;
+    width: 100%;
+    color: black;
+    border: 1px solid black;
+}
+.block2{
+    height: 100px;
+    width: 50%;
+    border: 1px solid red;
+    float: right;
+}
+.box{
+    height: 50px;
+    width: 90px;
+    border: 1px solid green;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: medium;
+    font-family: 'Courier New';
+    display: inline-block;
+}
+.wrapper{
+    height: 50px;
+    width: 90px;
+    border: 1px solid green;
+}
+.centbox{
+    height: 50px;
+    width: 90px;
+    border: 1px solid green;
+
+}
+

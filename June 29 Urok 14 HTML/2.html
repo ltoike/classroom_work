@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        outline: 1px solid purple;
+    }
+    .containerright{
+        margin-left: 30px;
+        display: flex;
+        flex: 0 0 220px;
+        outline: 2px solid blue;
+        flex-direction: column;
+
+    }
+    .bigbox{
+        background-color: green;
+        min-height: 300px;
+        flex: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .smallbox2{
+        display: flex;
+        flex: 0 0 220px;
+        background-color: royalblue;
+        justify-content: space-between;
+        margin-bottom: 15PX;
+
+    }
+    .c{
+        font-family: 'Courier New';
+        font-size: large;
+        color: white;
+        align-content: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="bigbox">
+            <a class="c">1</a>
+        </div>
+        <div class="containerright">
+            <div class="smallbox2">
+                2
+            </div>
+            <div class="smallbox2">
+                3
+            </div>
+        </div>
+    </div>
+</body>
+</html>
