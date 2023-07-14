@@ -1,0 +1,45 @@
+.mainbox{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+}
+.secondbox{
+    background-color: rgba(177, 160, 81, 0.992);
+    width: 100%;
+    height: 100px;
+}
+.text{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+.main{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    min-width: 500px;
+    margin: auto;
+    flex: auto;
+    box-sizing: border-box;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    min-width: 330px;
+    max-width: 960px;
+    min-height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+.griditems{
+    margin-top: 10px;
+    background-image: url("tshirt.jpg");
+    background-size: contain;
+    display: flex;
+    height: 90px;
+    width: 100px;
+    background-color: black;
+    align-items: center;
+    flex-basis: 0 1 calc(33.33% - 30px * (2/3));
+}
