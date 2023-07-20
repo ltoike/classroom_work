@@ -1,0 +1,223 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.main-header{
+    width: 100%;
+    height: 100px;
+}
+
+.item-header{
+    height: 40px;
+    width: 90px;
+    margin-right: 15px;
+    margin-top: 25px;
+    font-size: small;
+    text-align: center;
+    line-height:38px;
+    display: inline-block;
+    float: right;
+    color: gray;
+
+}
+.line{
+    width: 400px;
+    border: 1.5px solid black;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.item-header1{
+    height: 40px;
+    width: 140px;
+    margin-right: 15px;
+    margin-top: 25px;
+    font-size: small;
+    text-align: center;
+    line-height:38px;
+    display: inline-block;
+    float: right;
+    border-radius:9px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background-image: url("");
+    background-size:contain;
+    border-radius: 40px;
+    margin: auto;
+}
+.bag{
+    height: 40px;
+    width: 40px;
+    background-image: url("bag.jpg");
+    background-size:contain;
+
+}
+.arrow{
+    position: relative;
+    top: -5px;
+    background-image: url("arrow.PNG");
+    background-size:contain;
+    height: 10px;
+    width: 20px;
+    margin-left: 100px;
+    
+}
+
+.wrapper{
+    width: 1200px;
+    height: 880px;
+    margin: auto;
+}
+.box1{
+    width: 450px;
+    height: 180px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box2{
+    margin-top: 20px;
+    width: 450px;
+    height: 20px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.boxmodels{
+    width: 210px;
+    height: 55px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-family:Arial;
+
+}
+.boxes{
+    width: 350px;
+    height: 150px;
+    margin-left: 20px;
+}
+.innerboxes{
+    height: 35px;
+    width: 140px;
+    outline: 1px solid gray;
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+.c {
+    position:relative;
+    top: 7px;
+    font-size: small;
+    text-align:left;
+    color: gray;
+    font-size: small;
+    padding-left: 20px;
+}
+.lastb{
+    height: 40px;
+    width: 130px;
+    font-size: small;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.a{
+    position:relative;
+    top: 10px;
+    font-size: small;
+    text-align:center;
+    color: aliceblue;
+    font-size: small;
+}
+.pic{
+    background-image: url("sneakers.jpg");
+    width: 700px;
+    height: 350px;
+    float: right;
+    margin-right: 40px;
+    object-fit: contain;
+}
+
+.mainbox{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.text{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial;
+    margin: auto;
+    line-height: 180px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    min-width: 500px;
+    margin: auto;
+    flex: auto;
+    box-sizing: border-box;
+}
+.longb{
+    margin:auto;
+    height: 90px;
+    width: 500px;
+    background-color: rgb(203, 207, 215);
+    font-family:Arial;
+    line-height: 45px;
+    border-radius: 10px;
+
+}
+.longbin{
+    background-image: url("girl.png");
+    width: 150px;
+    height: 90px;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    min-width: 330px;
+    max-width: 960px;
+    min-height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.griditems{
+    margin-top: 10px;
+    background-image: url("tshirt.jpg");
+    background-size: contain;
+    display: flex;
+    height: 90px;
+    width: 100px;
+    background-color: black;
+    align-items: center;
+    flex-basis: 0 1 calc(33.33% - 30px * (2/3));
+}
+.text2{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 520px;
+    line-height: 1px;
+}
